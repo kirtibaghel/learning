@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int a=50,b=20;
+    if (a>b)
+    printf("a is largest");
+    else
+    printf("b is largest");
+    
+}
