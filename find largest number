@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,num[5],largest=0;
+int sl=0,fl=0;
+clrscr();
+
+printf("enter any five number :");
+for (i=0;i<5;i++)
+  {
+  scanf("%d",&num[i]);
+  if(largest<num[i])
+    largest=num[i];
+   }
+ printf("\nlargest number : %d",largest);
+ }
