@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+
+void print_array(int*);
+void main()
+
+{
+    int arr[5]={10,20,30,40,50};
+    printf_array(arr);
+}
+void print_array(int *num)
+{
+    inti;
+    for (i=0;i<5;i++)
+    printf("\n %d",num[i]);
+}
