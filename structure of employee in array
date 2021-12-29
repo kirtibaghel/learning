@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+struct employee
+{
+    int empid;
+    char name[10];
+    int salary;
+};
+void main()
+{
+    struct employee E;
+    E.empid =101;
+    strcpy(E.name,"rakesh");
+    E.salary=5000;
+    printf("Empid %d",E.empid);
+    printf("Emp name %s",E.name);
+    printf("Emp salary %d",E.salary);
+}
