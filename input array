@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void input_array(int*);
+void main()
+
+{
+    int arr[5]=i;
+    input_array(num);
+    printf("\n array values");
+    for(i=0;i<5;i++)
+    printf("\n %d",num[i]);
+}
+
+void input_array(int *arr)
+{
+    int i;
+    printf("\n enter array values");
+    for (i=0;i<5;i++)
+    scanf( "%d",arr[i]);
+}
