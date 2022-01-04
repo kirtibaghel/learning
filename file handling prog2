@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int roll no;
+    int marks;
+    char name[10];
+    FILE *fp:
+    fp = fopen("student.txt","w");
+    
+    printf("enter student info");
+    
+    printf("roll no :");
+    scanf("%d",&rollno);
+    
+    printf("name");
+    scanf("%s",name);
+    
+    printf("marks" :)
+    scanf("%d",&marks );
+    
+    fprintf(fp," %d %s %d",rollno,name,marks);
+    
+    fclose(fp);
+}
