@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+//search rollno
+void main()
+{
+    int i;
+    int roll no,srno,flag=0;
+    int marks;
+    char name[10];
+    FILE *fp:
+    fp = fopen("student.txt","r"); //r mode is for read
+    printf("search roll no :");
+    scanf("%d",&srno);
+    
+    printf(" student info");
+    while(fscanf(fp,"%d%s%d"&rollno,name,&marks) > 0)
+    {
+     if (roll no == srno)
+     {
+    printf("\n\nroll no :%d",rollno);
+    printf("\nname :%s",name);
+    printf("\nmarks : %s",name);
+    flag=1;
+    break;
+     }
+    }
+   if (flag==0)
+   printf("record not found....");
+   fclose(fp);
+}
