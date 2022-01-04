@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    char name[10];
+    FILE *fp:
+    fp = fopen("student,txt","w");
+    
+    printf("enter your name");
+    scanf("%s",name );
+    fprintf(fp,"%s",name);
+    fclose(fp);
+}
