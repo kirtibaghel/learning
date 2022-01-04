@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    int roll no;
+    int marks;
+    char name[10];
+    FILE *fp:
+    fp = fopen("student.txt","r"); //r mode is for read
+    
+    printf(" student info");
+    for(i=0;i<3;i++)
+    {
+    fscanf(fp,"%s%s%d",&rollno,name,&marks);
+        
+    printf("\n\nroll no :%d",rollno);
+    printf("\nname :%s",name);
+    printf("\nmarks : %s",name);
+    }
+
+    
+    fclose(fp);
+}
